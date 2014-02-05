@@ -36,7 +36,6 @@ class AppError extends ErrorHandler {
 			
 			$this->controller->render('error');
 			$this->controller->afterFilter();
-			
 			echo $this->controller->output;
 		
 		} else {

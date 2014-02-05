@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" itemscope itemtype="http://schema.org/<?=ucfirst($og_for_layout['itemtype'])?>">
 <head>
 <meta charset="utf-8" />
@@ -7,8 +7,9 @@
 <meta name="keywords" content="<?=$keywords_for_layout?>" />
 <meta name="author" content="pulsem.mx" />
 <meta name="generator" content="daetherius" />
-<meta name="language" content="spanish" /> 
 <meta name="robots" content="index" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <meta property="og:title" content="<?=$og_for_layout['title']?>" />
 <meta property="og:description" content="<?=$og_for_layout['description']?>" />
@@ -21,7 +22,7 @@
 <meta itemprop="description" content="<?=$og_for_layout['description']?>" />
 <meta itemprop="image" content="<?=$og_for_layout['image']?>" />
 
-<?=$html->css(array('generic','main','pulsembox'))?> 
+<?=$html->css(array('generic','main','pulsembox','mooshowcase'))?> 
 </head>
 <?php
 echo

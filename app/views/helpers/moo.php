@@ -169,7 +169,7 @@ class MooHelper extends JsHelper {
 
 	function showcase($el, $options=array()){
 		$options = $this->Util->json($options);
-		$this->Html->css('mooshowcase','stylesheet',array('inline'=>false));
+		//$this->Html->css('mooshowcase','stylesheet',array('inline'=>false));
 		$this->Html->script('mooshowcase',false);
 		$this->buffer('new mooShowcase("'.$el.'"'.$options.');');
 	}
