@@ -1,0 +1,49 @@
+.sgContainer { margin:10px 0 16px 0;overflow:auto;position:relative; }
+.sgContainer .spinner { position:absolute;height:100%;width:100%;background:transparent url(/img/spinner.gif) no-repeat center center;z-index:1;top:0;left:0; }
+
+/* La máscara del scroller */
+.sgMask { position:relative;overflow:hidden; }
+.sgMaskPad {
+	position:relative;
+	padding:6px;
+	margin:0 58px;
+	display:block; /* Fix IE7 bug */ 
+}
+
+.sgItems { position:relative;width:28000px; }
+.sgItemswrapper {
+	position:relative;
+
+	display:-moz-inline-stack;
+	display:inline-block;
+	vertical-align:top;
+	zoom:1;
+	*display:inline;
+}
+
+.sgItem {
+	position:relative;
+	*position:static;
+	margin:0 0 0 5px;
+	text-align:center;
+	
+	display:-moz-inline-stack;
+	display:inline-block;
+	vertical-align:top;
+	zoom:1;
+	*display:inline;
+}
+.sgItem:first-child { margin:0; }
+
+.sgItem img { border:#fff solid 0;vertical-align:middle; }
+.sgItem .caption { display:block;padding:3px 3px 0 3px;font-weight:bold; }
+.sgPrev, .sgNext {
+	position:absolute;
+	top:0;
+	width:58px;
+	height:100%;
+	cursor:pointer;
+	outline:0;
+}
+.sgPrev { left:0;background:transparent url('/img/sgPrev.png') no-repeat center center; }
+.sgNext { right:0;background:transparent url('/img/sgNext.png') no-repeat center center; }

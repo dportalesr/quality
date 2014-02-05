@@ -1,0 +1,6 @@
+[06-Jan-2014 07:57:22 America/Mexico_City] PHP Fatal error:  require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'cake/libs/model/datasources/datasource.php' (include_path='/home/mudanz13/public_html:/home/mudanz13/public_html/app/:.:/usr/local/php53/pear') in /home/mudanz13/public_html/cake/libs/model/connection_manager.php on line 22
+[06-Jan-2014 16:46:01 America/Mexico_City] PHP Fatal error:  Class 'Config' not found in /home/mudanz13/public_html/app/views/contacto/index.ctp on line 40
+[08-Jan-2014 12:56:46 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_STRING in /home/mudanz13/public_html/app/views/ajax/form.ctp on line 2
+[08-Jan-2014 13:15:05 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_STRING in /home/mudanz13/public_html/app/views/ajax/form.ctp on line 2
+[08-Jan-2014 13:15:33 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_STRING in /home/mudanz13/public_html/app/views/ajax/form.ctp on line 2
+[08-Jan-2014 13:16:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_STRING in /home/mudanz13/public_html/app/views/ajax/form.ctp on line 2

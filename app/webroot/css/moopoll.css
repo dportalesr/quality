@@ -1,0 +1,48 @@
+/*
+	line-height de .poll_option a debe ser igual a la de .poll_option
+*/
+.poll { width:100%;margin:12px 0; }
+.poll .poll_question {
+	font-weight:bold;
+	padding:0 10px;
+	text-align:left;
+}
+.poll .poll_options { margin:12px 20px; }
+.poll .poll_options .poll_option {
+	position:relative;
+	margin:8px 0;
+	
+	font-weight:bold;
+	font-size:10px;
+}
+.poll .poll_options .poll_option .result { font-size:12px;height:15px;padding:0 0 6px 6px; }
+.poll .poll_options .poll_option .poll_bar {
+	background:#AAD383 url(/img/poll_bar_bg.gif) repeat-x top;
+	border:#A7D777 solid 1px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-khtml-border-top-right-radius:5px;
+	-khtml-border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.poll .poll_options .poll_option a { position:relative;display:block;z-index:1;line-height:14px;margin-left:6px;padding:6px 0;color:#000; }
+.poll .poll_options .poll_option a:hover { color:#666; }
+.poll .poll_results_button {
+	display:block;
+	width:70%;
+	padding:5px 4px;
+	margin:15px auto;
+	background:#CCC;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	
+}

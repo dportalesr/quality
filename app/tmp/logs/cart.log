@@ -1,0 +1,11 @@
+2012-09-29 02:24:48 Cart: Array
+(
+    [TIMESTAMP] => 2012-09-29T07:24:48Z
+    [CORRELATIONID] => 2055264bf24e3
+    [ACK] => Failure
+    [L_ERRORCODE0] => 10001
+    [L_SHORTMESSAGE0] => Internal Error
+    [L_LONGMESSAGE0] => Timeout processing request
+    [REQUEST] => METHOD=doExpressCheckoutPayment&VERSION=65.0&USER=sdk-three_api1.sdk.com&PWD=QFZCWN5HZM8VBG7Q&SIGNATURE=A-IzJhZZjhg29XQ2qnhapuwxIDzyAZQ92FRP5dqBzVesOkzbdUONzmOU&PAYMENTREQUEST_0_PAYMENTACTION=Sale&PAYMENTREQUEST_0_AMT=+&%3C%21DOCTYPE+HTML+PUBLIC+%22-%2F%2FIETF%2F%2FDTD+HTML+2.0%2F%2FEN%22%3E%0A%3Chtml%3E%3Chead%3E%0A%3Ctitle%3E500+Internal+Server+Error%3C%2Ftitle%3E%0A%3C%2Fhead%3E%3Cbody%3E%0A%3Ch1%3EInternal+Server+Error%3C%2Fh1%3E%0A%3Cp%3EThe+server+encountered+an+internal+error+or%0Amisconfiguration+and+was+unable+to+complete%0Ayour+request.%3C%2Fp%3E%0A%3Cp%3EPlease+contact+the+server+administrator%2C%0A+ppmtps%40paypal.com+and+inform+them+of+the+time+the+error+occurred%2C%0Aand+anything+you+might+have+done+that+may+have%0Acaused+the+error.%3C%2Fp%3E%0A%3Cp%3EMore+information+about+this+error+may+be+available%0Ain+the+server+error+log.%3C%2Fp%3E%0A%3Chr%3E%0A%3Caddress%3EApache+Server+at+%3Ca+href=%22mailto%3Appmtps%40paypal.com%22%3Eapi-3t.sandbox.paypal.com%3C%2Fa%3E+Port+443%3C%2Faddress%3E%0A%3C%2Fbody%3E%3C%2Fhtml%3E%0A&REQUEST=METHOD%3DgetExpressCheckoutDetails%26VERSION%3D65.0%26USER%3Dsdk-three_api1.sdk.com%26PWD%3DQFZCWN5HZM8VBG7Q%26SIGNATURE%3DA-IzJhZZjhg29XQ2qnhapuwxIDzyAZQ92FRP5dqBzVesOkzbdUONzmOU%26TOKEN%3DEC-5KD50245WE903970M
+)
+

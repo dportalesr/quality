@@ -1,0 +1,88 @@
+#PboxPad { display:block;padding:0 0; }
+#Pulsembox {
+	position: absolute;
+	overflow:visible;
+	z-index: 101;
+	color:#333;
+	font-size: 12px;
+	font-family:Verdana, serif;
+	text-align:left;
+	min-width:264px;
+	color:#fff;
+}
+#PboxOverlay {
+	position: fixed;
+	width:100%;
+	height:100%;
+	z-index:100;
+	top:0;
+	left:0;
+	background:#000 none no-repeat center center;
+}
+#PboxHeader{
+	position:relative;
+	height:46px;
+	line-height:46px;
+	position:relative;
+}
+#PboxHeader a , #PboxHeader span { color:#fff;display:-moz-inline-stack;display:inline-block;vertical-align:top;zoom:1;*display:inline; }
+
+#PboxHeaderNav { margin:0;text-align:left; }
+#PboxPrev, #PboxNext { background:none no-repeat; }
+#PboxPrev{
+	background-position:left center;
+	background-image:url(/img/pbox/prev.png);
+	padding-left:24px;
+}
+#PboxNext {
+	background-position:right center;
+	background-image:url(/img/pbox/next.png);
+	padding-right:24px;
+}
+
+#PboxCounter{ padding:0 12px;font-size:11px;font-weight:bold; }
+#PboxCloseButton {
+	display:block;
+	float:right;
+	position:relative;
+	width:24px;
+	height:100%;
+	background:url(/img/pbox/cerrar.png) no-repeat center center;
+	text-indent:-9999px;
+}
+
+#PboxImage {
+	display:block;
+	margin:0 auto;
+	background:#fff;
+	width:100%;
+	box-shadow: 0px 0px 0px 2px #fff;
+	-moz-box-shadow: 0px 0px 0px 2px #fff;
+	-webkit-box-shadow: 0px 0px 0px 2px #fff;
+	
+}
+#PboxImageClose { padding:0;display:block; }
+
+#PboxCaption {
+	max-height:56px;
+	overflow:auto;
+	font-weight:bold;
+	padding:6px 0;
+	font-size:11px;
+	line-height:15px;
+}
+#PboxCaption a:link { color: #99CCFF; }
+#PboxCaption a:hover, #PboxCaption a:focus { color: #3388FF; }
+#PboxCaption a:visited { color: #A9BBDA; }
+#PboxAjaxContent{
+	background:#fff;
+	clear:both;
+	padding:0;
+	text-align:left;
+	line-height:1.4em;
+	color:#333;
+	overflow-x:hidden;
+	overflow-y:visible;
+	width:100%;
+	min-height:80px;
+}

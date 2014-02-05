@@ -1,0 +1,20 @@
+2012-12-14 15:02:39 Cartresponses: Array
+(
+    [TOKEN] => EC-89A96435RU467545V
+    [TIMESTAMP] => 2012-12-14T21:02:35Z
+    [CORRELATIONID] => 5bae8d3b5415b
+    [ACK] => Success
+    [VERSION] => 65.0
+    [BUILD] => 4181146
+)
+
+2012-12-14 15:03:06 Cartresponses: Array
+(
+    [TOKEN] => EC-0EU10637LG2436307
+    [TIMESTAMP] => 2012-12-14T21:03:03Z
+    [CORRELATIONID] => 2b449224cc78
+    [ACK] => Success
+    [VERSION] => 65.0
+    [BUILD] => 4181146
+)
+

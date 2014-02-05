@@ -1,0 +1,1 @@
+<?php echo $this->element('temp/admin_images',array('opts'=>array('portada'))); ?>

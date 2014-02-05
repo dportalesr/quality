@@ -1,0 +1,87 @@
+.mooshowcase_wrapper{
+	position:relative;
+	overflow:hidden;
+}
+.mooshowcase_nav {
+	/* width:100%; Need it?*/
+	overflow:auto;
+	margin-top:1px;
+	padding:6px 10px;
+}
+.mooshowcase_nav.in {
+	position:absolute;
+	z-index:1;
+	top:6px;
+	font-weight:bold;
+}
+.mooshowcase_nav.out { position:relative; }
+.mooshowcase_nav a {
+	display:block;
+	float:right;
+	width:12px;
+	margin:0 8px 0 0;
+	font-weight:bold;
+	color:#fff;
+	height:12px;
+	line-height:12px;
+	font-size:10px;
+	text-align:center;
+	background:#AEDAEC;
+	border-radius:10px;
+	-moz-border-radius:8px;
+	-khtml-border-radius:8px;
+	-webkit-border-radius:8px;
+	border:#fff solid 1px;
+}
+.mooshowcase_nav a:hover, .mooshowcase_nav a.selected{ background:#0066A5;text-shadow:0 0 4px #fff; }
+
+.mooshowcase_nav.in a{ float:right; }
+.mooshowcase_nav.out a{ float:left; }
+
+.mooshowcase_nav .navnp { width:60px; }
+.mooshowcase_nav.out .navnp { float:right; }
+.mooshowcase_nav.in .navnp { float:left; }
+
+.mooshowcase_nav.out .navnp a {
+	float:right;
+	width:22px;
+	height:21px;
+	margin:0 0 0 8px;
+	border-radius:0;
+	-moz-border-radius:0;
+	-khtml-border-radius:0;
+	-webkit-border-radius:0;
+	background-position:center top;
+}
+.mooshowcase_nav.in .navnp a { float:right;margin-right:6px; }
+.mooshowcase_nav.out .navnp a.next { background:url(/img/smallNext.png) no-repeat; }
+.mooshowcase_nav.out .navnp a.prev { background:url(/img/smallPrev.png) no-repeat; }
+.mooshowcase_nav.out .navnp a:hover { background-position:center bottom; }
+
+.mooshowcase_caption{
+	background:url(/img/pad.png);
+	color:#fff;
+	font-size:14px;
+	position:absolute;
+	z-index:1;
+	width:100%;
+}
+.mooshowcase_caption a { color:#ffff80; }
+.mooshowcase_caption a:hover { color:#ffff00; }
+.mooshowcase_caption .caption { display:none; }
+.mooshowcase_captionpad{ padding:10px 15px; }
+
+.mooshowcase_container{
+	position:relative;
+	width:100%;
+}
+.mooshowcase_container .item{
+	position:absolute;
+	display:block;
+}
+.mooshowcase_spinner{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background:url(/img/spinner.gif) no-repeat center center;
+}

@@ -1,0 +1,27 @@
+.moogrow {
+	position:absolute;
+	padding:0;
+	top:0;
+	left:0;
+	display:none;
+	background:#fff;
+	border:#ccc solid 1px;
+	color:#666;
+	font-weight:bold;
+}
+.moogrow_wrapper {
+	position:relative;
+	background:#fff url(/img/spinner.gif) no-repeat center center;
+}
+.moogrow_wrapper a { display:block; }
+.moogrow_wrapper img.moogrow_small { display:block;position:relative; }
+.moogrow_wrapper img.moogrow_big { display:none;position:relative; }
+.moogrow_caption {
+	max-height:80px;
+	overflow:auto;
+	padding:3px 8px;
+}
+
+/*** CUSTOM ***/
+
+.moogrow_wrapper img { border:#fff solid 0px; }

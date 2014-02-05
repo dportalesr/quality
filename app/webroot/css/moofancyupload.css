@@ -1,0 +1,60 @@
+/***
+ * CSS For "Fancy File Uploads with CSS and Mootools"
+ * Author: 	 Paul Tulipana, Design Less Better
+ * Author URI:	 www.designlessbetter.com
+ * Last Updated: 2008-06-13 
+ ***/
+
+div.fancyupload
+{
+	position: relative;
+	width: 151px;
+	height: 38px;
+	display:-moz-inline-stack;display:inline-block;vertical-align:top;zoom:1;*display:inline;
+	margin: 5px auto;
+	overflow: visible;
+	background:url('/img/fancyupload.png') no-repeat center top;
+	cursor: pointer !important;
+}
+div.fancyupload:hover { background-position: center bottom; }
+
+div.fancyupload .fancycaption{
+	left:40px;
+	font-weight:bold;
+	
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	color:#fff;
+}
+div.fancyupload input
+{
+    position: relative;
+    height: 100%;
+    width: auto;
+    z-index:50;
+}
+
+div.fancyfilename
+{
+	display:-moz-inline-stack;display:inline-block;vertical-align:top;zoom:1;*display:inline;
+	padding: 14px 8px;
+	text-align: left;
+}
+
+/***
+ * IE Hacks. Gar.
+ ***/
+
+*:first-child+html div.fancyupload input
+{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+*:first-child+html div.fancyfilename
+{
+	z-index: 300;
+	clear: both;
+	position: relative;
+}

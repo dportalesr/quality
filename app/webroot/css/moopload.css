@@ -1,0 +1,25 @@
+.mupload_container{
+	padding:12px 15px;
+	border:#ddd solid 1px;
+	background:#eee;
+	-webkit-border-radius:4px;-khtml-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+}
+.mupload_container .mupload_list{
+	margin-top:12px;
+}
+.mupload_container .mupload_list .mupload_item{
+	padding:3px 6px;
+	height:20px;
+	margin-bottom:3px;
+	background:#FFF;
+	border-bottom:#bbb solid 2px;
+}
+.mupload_container .mupload_list .mupload_item:hover{ }
+.mupload_container .mupload_list a{
+	float:right;
+	width:10px;
+	height:10px;
+	padding:5px;
+	margin:0;
+}
+.mupload_container .mupload_list a img{ border:0; }

@@ -1,0 +1,11 @@
+<?php
+echo
+	$this->element('adminhdr',array('links'=>array('back'))),
+	$this->element('inputs',array(
+		'schema'=>array(
+			'parent_id'=>'skip',
+			'parent'=>'skip',
+			'post_id'=>'skip'
+		)
+	));
+?>
